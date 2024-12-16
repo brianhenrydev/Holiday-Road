@@ -34,7 +34,7 @@ After each teammate clones the repository, each must perform the following steps
 
 ### Stretch Goal: Directions
 
-Only after the main fetures of the application listed above are complete, you can work on the stretch goal of providing directions. For this feature, you will be using the Graphhopper API.
+Only after the main features of the application listed above are complete, you can work on the stretch goal of providing directions. For this feature, you will be using the Graphhopper API.
 
 Once the user has saved an itinerary, and it is listed on the aside bar, refactor your application to add a _Get Directions_ button to each HTML representation of the itinerary. When the user clicks that button for an itinerary, the user should be presented with step-by-step instructions for the trip. It should include
 
