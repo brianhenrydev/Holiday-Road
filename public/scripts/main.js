@@ -1,4 +1,5 @@
 import { genParksDropdown } from "./parks/ParksDropdown.js";
+import { genAttractionsDropdown } from "./attractions/AttractionsDropDown.js";
 
 const container = document.querySelector("#container");
 
@@ -14,7 +15,7 @@ const render = async () => {
                <h2>Choose a Park</h2>
                <div id="parks-dropdown" class="dropdown-menu">${await genParksDropdown()}</div>
                <h2>Choose an Attraction</h2>
-               <div id="attractions-dropdown" class="dropdown-menu"></div>
+               <div id="attractions-dropdown" class="dropdown-menu">${await genAttractionsDropdown()}</div>
                <h2>Choose a Eatery</h2>
                <div id="eateries-dropdown" class="dropdown-menu"></div>
             </div>
