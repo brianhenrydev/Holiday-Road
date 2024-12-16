@@ -1,11 +1,11 @@
 import { getAttractions } from "./AttractionsProvider.js";
 
-const parks = await getAttractions();
+const attractions = await getAttractions();
 
 export const genAttractionsDropdown = async () => `
           <select name="attraction">
             <option value="default"/> -
-            ${parks
+            ${attractions
 							.map(
 								({ id, name, city, state, description }) =>
 									`<option value="${name}"
